@@ -85,7 +85,7 @@ where id >= 37;
 
 --24. Вывести пользователя у которых id больше 80 но меньше 90
 select * from students
-where id between 81 and 89;
+where id >80 and id <90;
 
 --25. Вывести пользователя у которых id между 80 и 90
 select * from students
